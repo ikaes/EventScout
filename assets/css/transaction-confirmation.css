@@ -1,0 +1,52 @@
+.confirmation-transaction-template {
+  background: #fff !important;
+}
+.margin-bottom {
+    margin-bottom: 1em;
+}
+
+.margin-top {
+    margin-top: 1em;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.checkout-steps {
+    font-size: 13px;
+    margin-top: 2em;
+    clear: both;
+}
+
+.se_row {
+    display: inline-block;
+    width: 102%;
+    margin-left: -2%;
+}
+.se-wid50 {
+    width: 48%;
+    float: left;
+    position: relative;
+    margin-left: 2%;
+}
+
+@media (min-width: 1200px) {
+	.se-xl-wid50 {
+		width: 48%;
+		float: left;
+		position: relative;
+		margin-left: 2%;
+	}
+}
+
+
+
+.confirmation-transaction {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.confirmation-transaction .transaction-info {
+    margin-top: 30px;
+}

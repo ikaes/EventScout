@@ -1,0 +1,84 @@
+.discount-metabox .label, .discount-metabox label,
+#event_details_meta_box .label, #transaction_info_meta_box .label, #transaction_info_meta_box label, .personal-metabox label {
+    min-width: 200px;
+    display: inline-block;
+}
+.discount-metabox input,.discount-metabox select,
+#event_details_meta_box input,#event_details_meta_box select, #transaction_info_meta_box select, #transaction_info_meta_box input, .personal-metabox select, .personal-metabox input {
+    width: 200px;
+    margin-right: 10px;
+}
+.payment-metabox .label,
+.registration-metabox .label {
+    min-width: 200px;
+    display: inline-block;
+}
+.registration-metabox .value {}
+
+
+.payment-metabox .transaction span.label {
+    vertical-align: top;
+}
+
+.payment-metabox .transaction span.value {
+    display: inline-block;
+}
+
+.payment-metabox .transaction table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payment-metabox .transaction table th, .payment-metabox .transaction table td {
+    border: 1px solid #ddd;
+    padding: 5px 15px;
+}
+
+/* Email Notification Setting Page*/
+
+.email-template-selection {
+    padding-right: 30px;
+}
+.email-template-selection input,.email-template-selection textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px 15px;
+    margin-top: 5px;
+}
+.email-template-selection textarea{
+    height: 300px;
+}
+
+.transaction-mail button {
+    border: 1px solid #ddd;
+    background: #0085ba;
+    box-shadow: none;
+    outline: none;
+    padding: 5px 15px 8px 15px;
+    color: #fff;
+    border-radius: 4px !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-variant-caps: petite-caps;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.transaction-mail button:hover {
+    background: #045b7d;
+}
+.transaction-mail .mail-result .error,
+.transaction-mail .mail-result .success {
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.transaction-mail .mail-result .success {
+    background: #008818;
+ }
+.transaction-mail .mail-result .error {
+    background: #ff6161;
+}
+
+
+/* end Email Notification Setting Page*/
